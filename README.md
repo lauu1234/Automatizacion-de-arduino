@@ -9,33 +9,19 @@ Crear un que mida la humedad de la tierra y active una bomba de agua cuando el s
 Automatizar el riego de una planta para mantener una humedad adecuada y evitar que se seque por falta de agua.
 
 ## Codigo
-const int sensorHumedad = A0;
-const int led = 8;
+
+int potenciometro = A0;
+int led = 8;
+int valor;
+int brillo;
 
 void setup() {
   pinMode(led, OUTPUT);
-  Serial.begin(9600);
 }
 
 void loop() {
+  valor = analogRead(potenciometro);
+  brillo = map(valor, 0, 1023, 0, 255);
+  analogWrite(led, brillo);
+}
 
- 
-  int valor = analogRead(sensorHumedad);
-
-
-  int humedad = map(valor, 0, 1023, 0, 100);
-
-
-  Serial.print("Humedad: ");
-  Serial.print(humedad);
-  Serial.println("%");
-
- if (humedad > 60)  {
-    digitalWrite(led, HIGH);
-  }
-  else {
-    digitalWrite(led, LOW);
-  }
-
-  delay(500);
-}s
