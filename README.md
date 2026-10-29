@@ -25,3 +25,8 @@ void loop() {
   analogWrite(led, brillo);
 }
 
+# Productos
+Arduino UNO R3 SMD (CH340G) + usb : 11.329,49
+MH10CM pack 40 cables dupont macho-hembra/10cm: 3.100
+LED Difusa 5mm x 10 unidades por color :1.950,51
+potenciometro: prestado
