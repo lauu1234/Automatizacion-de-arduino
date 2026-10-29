@@ -22,15 +22,23 @@ Requerimientos No Funcionales
 
 (Cómo debe funcionar y cumplir sus condiciones)
 • Rapidez: El LED debe prenderse o apagarse de inmediato (en menos de un pestañeo) al mover el potenciómetro.
-• Seguridad: El LED debe llevar una resistencia para que no reciba demasiada energía y no se queme.
-• Simplicidad: Debe funcionar usando muy pocas piezas: solo la placa (como Arduino), el potenciómetro, el LED y los cables.
-• Energía: Debe poder funcionar conectado directamente al puerto USB de la computadora o con una batería pequeña (5 voltios).
+
+Seguridad: El LED debe llevar una resistencia para que no reciba demasiada energía y no se queme.
+
+Simplicidad: Debe funcionar usando muy pocas piezas: solo la placa (como Arduino), el potenciómetro, el LED y los cables.
+
+Energía: Debe poder funcionar conectado directamente al puerto USB de la computadora o con una batería pequeña (5 voltios).
 
 
 
 Requerimientos Funcionales
-• Leer el potenciómetro: El sistema debe medir cuánto has girado la perilla del potenciómetro para usarlo como si fuera el nivel de humedad.
-• Calcular el porcentaje: Debe transformar ese giro en un número (por ejemplo, de 0% a 100% de humedad).
-• Revisar el límite: Debe comparar ese número con un límite de alerta (por ejemplo, si baja de 30% significa que está "seco").
-• Prender el LED: El foco LED debe encenderse automáticamente cuando la humedad sea muy baja.
-• Apagar el LED: El foco LED debe apagarse cuando gires la perilla hacia un nivel de humedad seguro.
+
+Leer el potenciómetro: El sistema debe medir cuánto has girado la perilla del potenciómetro para usarlo como si fuera el nivel de humedad.
+
+Calcular el porcentaje: Debe transformar ese giro en un número (por ejemplo, de 0% a 100% de humedad).
+
+Revisar el límite: Debe comparar ese número con un límite de alerta (por ejemplo, si baja de 30% significa que está "seco").
+
+Prender el LED: El foco LED debe encenderse automáticamente cuando la humedad sea muy baja.
+
+Apagar el LED: El foco LED debe apagarse cuando gires la perilla hacia un nivel de humedad seguro.
