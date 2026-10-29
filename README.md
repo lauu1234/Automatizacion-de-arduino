@@ -31,7 +31,13 @@ Energía: Debe poder funcionar conectado directamente al puerto USB de la comput
 
 
 
+
+
+
+
+
 Requerimientos Funcionales
+
 
 Leer el potenciómetro: El sistema debe medir cuánto has girado la perilla del potenciómetro para usarlo como si fuera el nivel de humedad.
 
