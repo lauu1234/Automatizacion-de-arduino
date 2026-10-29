@@ -1,6 +1,6 @@
 
 # Automatizacion de arduino
-roblemática
+problemática
 
 Muchas veces las plantas no reciben la cantidad de agua necesaria porque las personas se olvidan de regarlas o no saben cuándo la tierra está demasiado seca. Solución propuesta
 
