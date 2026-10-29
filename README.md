@@ -2,11 +2,9 @@
 # Automatizacion de arduino
 problemática
 
-Muchas veces las plantas no reciben la cantidad de agua necesaria porque las personas se olvidan de regarlas o no saben cuándo la tierra está demasiado seca. Solución propuesta
+Muchas personas riegan sus plantas sin saber cuánta humedad tiene la tierra, lo que puede provocar que reciban demasiada o muy poca agua. Además, regarlas manualmente requiere tiempo y atención.
 
-Crear un que mida la humedad de la tierra y active una bomba de agua cuando el suelo esté demasiado seco. Objetivo
-
-Automatizar el riego de una planta para mantener una humedad adecuada y evitar que se seque por falta de agua.
+Para solucionar este problema, se propone crear un sistema de riego automático con un sensor de humedad, un potenciómetro y Arduino. El sensor mide la humedad de la tierra, mientras que el potenciómetro permite regular el nivel de humedad deseado. Cuando la tierra está demasiado seca, Arduino activa una bomba de agua y, cuando alcanza el nivel establecido, la apaga.
 
 ## Codigo
 
